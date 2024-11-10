@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Web Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav class="lista">
+            <header class="menu">
+                <div class="avatarusuario">
+                    <img src="Imagens/avatar1.png" class="usuario">
+                </div>
+                <ul class="opcoes">
+                    <li><ion-icon name="filter-outline"></ion-icon></li>
+                    <li><ion-icon name="chatbox"></ion-icon></li>
+                    <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                </ul>
+            </header>
+
+            <section class="busca">
+                <div class="campobusca">
+                    <input type="text" placeholder="Procurar ou começar uma nova conversa">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+            </section>
+
+            <section class="listadeconversas">
+                <div class="janeladeconversa ativa">
+                    <div class="avatarconversa">
+                        <img src="Imagens/avatar2.png" class="usuario">
+                    </div>
+                    <div class="detalhes">
+                        <aside class="detalhes_nome">
+                            <h4>Sabrina Matos</h4>
+                            <p class="horario">22:40</p>
+                        </aside>
+                        <aside class="mensagem">
+                            <ion-icon name="checkmark-done"></ion-icon>
+                            <p>Oi, tudo bem?</p>
+                        </aside>
+                    </div>
+                </div>
+
+                <div class="janeladeconversa naolida">
+                    <div class="avatarconversa">
+                        <img src="Imagens/avatar3.png" class="usuario">
+                    </div>
+                    <div class="detalhes">
+                        <aside class="detalhes_nome">
+                            <h4>João Augusto</h4>
+                            <p class="horario">12:30</p>
+                        </aside>
+                        <aside class="mensagem">
+                            <p>Está disponível para um freela?</p>
+                            <b>3</b>
+                        </aside>
+                    </div>
+                </div>
+
+                <div class="janeladeconversa naolida">
+                    <div class="avatarconversa">
+                        <img src="Imagens/avatar4.png" class="usuario">
+                    </div>
+                    <div class="detalhes">
+                        <aside class="detalhes_nome">
+                            <h4>Maria Silva</h4>
+                            <p class="horario">08:20</p>
+                        </aside>
+                        <aside class="mensagem">
+                            <p>O projeto ficou perfeito, obrigada!</p>
+                            <b>5</b>
+                        </aside>
+                    </div>
+                </div>
+            </section>            
+        </nav>
+
+        <nav class="conversa">
+            <header class="menu">
+                <div class="avatar">
+                    <div class="avatarusuario">
+                        <img src="Imagens/avatar2.png" class="usuario">
+                    </div>
+                    <h4>Sabrina Matos<br><span>Online</span></h4>
+                </div>
+                <ul class="opcoes">
+                    <li><ion-icon name="search-outline"></ion-icon></li>
+                    <li class="anexo"><ion-icon name="attach-outline"></ion-icon></li>
+                    <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                </ul>
+            </header>
+
+            <section class="corpo_conversa">
+                <div class="mensagem_usuario outrem">
+                    <p>Olá, bom dia<span>12:00</span></p>
+                </div>
+
+                <div class="mensagem_usuario proprio">
+                    <p>Oi, tudo bem?<span>22:40</span>
+                        <ion-icon name="checkmark-done"></ion-icon>
+                    </p>
+                </div>
+            </section>
+
+            <section class="input_conversa">
+                <ion-icon name="happy-outline"></ion-icon>
+                <input type="text" placeholder="Digite uma mensagem">
+                <ion-icon name="mic"></ion-icon>
+            </section>
+        </nav>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
