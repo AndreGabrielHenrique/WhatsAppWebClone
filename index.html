@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhatsApp Web Clone</title>
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,6 +20,20 @@
                     <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
                 </ul>
             </header>
+
+            <section class="notificacoes">
+                <div class="icone_notificacao">
+                    <ion-icon name="notifications-off"></ion-icon>
+                </div>
+                <div class="detalhes_notificacao">
+                    <aside class="aviso_notificacao">
+                        <p>Receba notificações de novas mensagens</p>
+                    </aside>
+                    <aside class="ativar_notificacoes">
+                        <a onclick="ativar()"id="ativar">Ativar notificações na área de trabalho ﹥</a>
+                    </aside>
+                </div>
+            </section>
 
             <section class="busca">
                 <div class="campobusca">
@@ -113,7 +128,9 @@
         </nav>
     </main>
 
+    <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
